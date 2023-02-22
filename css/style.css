@@ -1,13 +1,13 @@
 img.icon {
     width: 40px;
     height: 40px;
-    }
+}
 .container{
     width: 100%;
     max-width: 960px;
     margin-right: auto;
     margin-left: auto;
-    }
+}
 .twitter-timeline{
     width: 50%;
 }
@@ -19,9 +19,8 @@ img.icon {
     height: 200px;
     overflow: hidden;
     margin: 0 auto;
-  
-  }
+}
 .slider-item {
     width: 300px;
     float: left;
-  }
+}
