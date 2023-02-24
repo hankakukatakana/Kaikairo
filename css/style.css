@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 851ゴチカクット;
+    src: url(851Gkktt_005.ttf);
+}
+h3{
+    font-family: 851ゴチカクット;
+}
+
 img.icon {
     width: 40px;
     height: 40px;
