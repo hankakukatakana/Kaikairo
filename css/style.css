@@ -21,6 +21,7 @@ img.icon {
 .personal{
     list-style: none;
 }
+\\----------------------------------------------------
 .slider {
     width: 300px;
     height: 200px;
@@ -31,17 +32,17 @@ img.icon {
     width: 300px;
     float: left;
 }
-
 .slideshow {
     position: relative;
-  }
-  .slideshow img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-  }
-  .slideshow img.active {
+    }
+    .slideshow img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+    .slideshow img.active {
     opacity: 1;
-  }
+    }
+\\----------------------------------------------------

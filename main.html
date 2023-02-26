@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
     <link rel="icon" href="image/favi/IMG_4885.PNG" />
     <title>カイロちゃんのシゴトベヤ</title>
 </head>
@@ -17,20 +17,10 @@
             <p>ビビットなカラーリンクとpopなイラストが大好きな<br>カイカイロの作品および活動情報サイトです。</p>
             <p>This site is information<br>and illustration web site about Kai KAIRO.</p>
         </div>
+        <div>
+            <li>WORKS</li>
+        </div>
     </header>
-    <div id="contents">
-        <li>{{ content }}</li>
-    </div>
-    <script>
-        new Vue({
-            el:"#contents",
-            date:{
-                content:"WORKS"
-
-            }
-
-        })
-    </script>
     <div class="container">
         <div class="slideshow">
             <img src="image/works/work (1).png" class="d-block w-100" alt="image1">
@@ -55,7 +45,6 @@
         </script>
     </div>
     <footer>
-        <div class="container">
             <div>
                 <h3>Profile</h3>
                         <p>漫画家・イラストレーターとして活動中。<br>サイバーパンク・ポップなイラストの制作が得意</p>
