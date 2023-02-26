@@ -3,7 +3,7 @@
     src: url(851Gkktt_005.ttf);
 }
 h3{
-    font-family: 851ゴチカクット;
+    font-family: '851ゴチカクット';
 }
 img.icon {
     width: 40px;
@@ -21,7 +21,7 @@ img.icon {
 .personal{
     list-style: none;
 }
-/*----------------------------------------------------*/
+/******************************************************/
 .slider {
     width: 300px;
     height: 200px;
@@ -42,7 +42,25 @@ img.icon {
         opacity: 0;
         transition: opacity 1s ease-in-out;
     }
-    .slideshow img.active {
+.slideshow img.active {
     opacity: 1;
     }
-/*----------------------------------------------------*/
+/******************************************************/
+.link{
+    align-items: center;
+}
+.link .btn{
+    border: 0px solid;
+    text-align: center;
+    width: 250px;
+    height: auto;
+    transition: all .5s ease;
+}
+.link .btn:hover{
+    background-color: #19B5FE;
+    transition: all .5s ease;
+}
+.txt{
+    font-family: '851ゴチカクット';
+}
+/******************************************************/
