@@ -55,6 +55,7 @@ img.icon {
     width: 250px;
     height: auto;
     transition: all .5s ease;
+    transform: skew(-15);
 }
 .link .btn:hover{
     background-color: #19B5FE;
