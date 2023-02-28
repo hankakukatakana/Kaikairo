@@ -11,15 +11,16 @@
     <title>カイロちゃんのシゴトベヤ</title>
 </head>
 <body>
+    <!--
     <header>
         <div class="header">
-
             <div style="float: right;">
                 <p>ビビットなカラーリンクとpopなイラストが大好きな<br>カイカイロの作品および活動情報サイトです。</p>
                 <p>This site is information<br>and illustration web site about Kai KAIRO.</p>
             </div>
         </div>
     </header>
+    -->
     <div class="hamburger">
         <div class="menu">
             <a class="btn" href="/main.html"> 
@@ -32,6 +33,12 @@
                 <div class="txt">ACCESS</div>
             </a>
         </div>
+        <input type="text">
+        <script>
+            function buttonClick(){
+                alert('Click');
+            }
+        </script>
     </div>    
     <div class="title">
         <img src="image/title/title (2).PNG" alt="">
@@ -39,32 +46,35 @@
     <div class="slideshow">
         <img src="image/works/work (1).png" class="d-block w-100" alt="image1">
     </div>
-        <script>
-            var slideIndex = 0;
-            showSlides();
-    
-            function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("slideshow")[0].getElementsByTagName("img");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].classList.remove("active");
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}
-            slides[slideIndex-1].classList.add("active");
-            setTimeout(showSlides, 4000); 
-            }
-        </script>
-        <footer class="footer">
-            <div class="card">
-                <div class="sns">
-                    <a href="https://coconala.com/users/3422858"><img src="image/rogo/c.png" class="icon"></a>
-                    <a href="https://skima.jp/profile?id=336471"><img src="image/rogo/s.png" class="icon"></a>
-                    <a href="https://www.pixiv.net/users/45323684"><img src="image/rogo/1.png" class="icon"></a>
-                    <a href="https://twitter.com/KaiKairo0707?ref_src=twsrc%5Etfw"><img src="image/rogo/t.png" class="icon"></a>
-                    <a href="https://youtube.com/@KaiKairo0707"><img src="image/rogo/y.png" class="icon"></a>
-                </div>
-            </div>            
-        </footer>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("slideshow")[0].getElementsByTagName("img");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].classList.remove("active");
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].classList.add("active");
+        setTimeout(showSlides, 4000); 
+        }
+    </script>
+    <footer class="footer">
+        <div class="card">
+            <div class="sns">
+                <a href="https://coconala.com/users/3422858"><img src="image/rogo/c.png" class="icon"></a>
+                <a href="https://skima.jp/profile?id=336471"><img src="image/rogo/s.png" class="icon"></a>
+                <a href="https://www.pixiv.net/users/45323684"><img src="image/rogo/1.png" class="icon"></a>
+                <a href="https://twitter.com/KaiKairo0707?ref_src=twsrc%5Etfw"><img src="image/rogo/t.png" class="icon"></a>
+                <a href="https://youtube.com/@KaiKairo0707"><img src="image/rogo/y.png" class="icon"></a>
+            </div>
+        </div>            
+    </footer>
+    <script>
+
+    </script>
 </body>
 </html>
