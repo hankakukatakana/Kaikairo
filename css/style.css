@@ -72,7 +72,7 @@ h3{
     width: 250px;
     height: 50px;
     transition: all .5s ease;
-    transform: skew(-15);
+    transform: skew(-10);
 }
 .nav-item:hover{
     text-align: right;
