@@ -26,6 +26,11 @@ img.icon {
     list-style: none;
 }
 /******************************************************/
+.title img{
+    width: 500px;
+    height: auto;
+    position: absolute;
+}
 .slider {
     width: 300px;
     height: 200px;
@@ -38,6 +43,9 @@ img.icon {
 }
 .slideshow {
     position: relative;
+    float: right;
+    width: 800px;
+    height: auto;
     }
     .slideshow img {
         position: absolute;
@@ -50,10 +58,10 @@ img.icon {
         opacity: 1;
         }
 /******************************************************/
-.link{
+.menu{
     align-items: center;
 }
-.link .btn{
+.menu .btn{
     border: 0px solid;
     text-align: center;
     width: 250px;
@@ -61,7 +69,7 @@ img.icon {
     transition: all .5s ease;
     transform: skew(-15);
 }
-.link .btn:hover{
+.menu .btn:hover{
     background-color: #19B5FE;
     transition: all .5s ease;
 }
