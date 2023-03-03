@@ -44,23 +44,34 @@
         setTimeout(showSlides, 4000); 
         }
     </script>
-
-    <div class="hamburger">
-        <label for="menu-btn-check" class="menu-btn"><span></span></label>
-        <!--
-        <div class="menu">
-            <a class="nav-item" href="/main.html"> HOME</a>
-            <a class="nav-item" href="/work.html"> WORKS</a>
-            <a class="nav-item" href="/access.html">ACCESS</a>
-        </div>        
-        -->
-    </div>
     <div class="title">
         <img src="image/title/title (1).PNG" alt="">
     </div>
+    <div class="hamburger">
+        <label type="button" for="menu-btn-check" class="menu-btn" id="menu-btn"><span></span></label>
+
+        <div class="menu" id="menu">
+            <li>
+                <a class="nav-item" href="/main.html"> HOME</a>
+            </li>
+            <li>
+                <a class="nav-item" href="/work.html"> WORKS</a>
+            </li>
+            <li>
+                <a class="nav-item" href="/access.html">ACCESS</a>
+            </li>
+        </div>
+        <script>
+            const menuIcon = document.querySelector('.menu-btn');
+            const menu = document.querySelector('.menu');
+            menuIcon.addEventListener("click", () =>{
+                menu.classList.add('.show')
+            });
+        </script>
+    </div>
     <!--
-        レンタカーの予約
         電気代解約
+        ガス会社に電話
         税金
         住民票
     -->

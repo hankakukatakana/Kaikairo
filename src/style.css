@@ -64,34 +64,33 @@
         }
 /******************************************************/
 .menu{
-    align-items: center;
     background-color: #19B5FE;
     width: 45%;
     height: 100%;
-    float: right;
     position: absolute;
     display: block;
+    margin:0 0 0 auto;
+    left: -45%; /* メニューを左に隠す */
+}
+.show {
+    left: 0; /* メニューを表示する */
 }
 .nav-item{
     display: block;
-    border: 0px solid;
-    align-items: end;
+    border: 0 solid;
     width: 100%;
     height: 80px;
     transition: all .5s ease;
-    transform: skew(-10);
 
     font-family: '851ゴチカクット';
-    font-size: xx-large;
+    font-size: xxx-large;
     text-align: center;
     color: black;
 }
 .nav-item:hover{
-    text-align: right;
     background-color: #3584bb;
     transition: all .5s ease;
 }
-
 /******************************************************/
 .menu-btn {
     position: fixed;
@@ -128,7 +127,7 @@
 
     position: absolute;
     bottom: 0;
-    width: 400px;
+    width: 100%;
 }
 .footer img{
     width: 40px;
