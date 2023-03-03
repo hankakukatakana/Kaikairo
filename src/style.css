@@ -13,10 +13,8 @@
 }
 .backgraund img{
     top: 10%;
-    bottom: 10%;
     right: 0%;
     left: 0%;
-    height: 80%;
     width: 100%;
     position: absolute;
 }
@@ -37,6 +35,7 @@
 }
 /******************************************************/
 .title img{
+    top: 10%;
     width: 35%;
     height: auto;
     position: absolute;
@@ -125,14 +124,14 @@
 }
 /******************************************************/
 .footer{
-    float: right;
-
     position: absolute;
+    right: 50%;
+    left: 50%;
     bottom: 0;
     width: 100%;
 }
-.footer img{
+.sns img{
     width: 40px;
-    height: 40px;
+    height: 40px;    
     -filter:grayscale( );
 }
