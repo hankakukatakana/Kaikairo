@@ -32,12 +32,14 @@ h3{
     width: 500px;
     height: auto;
     position: absolute;
+    transform: translate(40px)
 }
 .slider {
     width: 300px;
     height: 200px;
     overflow: hidden;
     margin: 0 auto;
+    transform: translate(-40px)
 }
 .slider-item {
     width: 300px;
