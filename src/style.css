@@ -8,6 +8,9 @@
     margin-right: auto;
     margin-left: auto;
 }
+.body{
+    top: 10%;
+}
 .backgraund img{
     top: 10%;
     bottom: 10%;
@@ -34,14 +37,14 @@
 }
 /******************************************************/
 .title img{
-    width: 550px;
+    width: 35%;
     height: auto;
     position: absolute;
     transform: translate(100px);
     transition: all .3s ease;
 }
 .title img:hover{
-    width: 555px;
+    width: 36%;
     height: auto;
     position: absolute;
     transform: translate(100px);
@@ -50,14 +53,13 @@
 /******************************************************/
 .slideshow {
     position: relative;
-    width: 700px;
-    height: auto;
-    margin: 0 auto;
+    margin: auto;
+    width: 50%;
     }
     .slideshow img {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 0%;
+        bottom: 0%;
         opacity: 0;
         transition: opacity 1s ease-in-out;
         }
