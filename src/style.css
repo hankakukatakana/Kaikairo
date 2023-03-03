@@ -10,9 +10,10 @@
 }
 .backgraund img{
     float: center;
-    top: 90px;
+    top: 10%;
+    bottom: 10%;
     margin: auto;
-    width: 100%;
+    height: 80%;
     position: absolute;
 }
 /******************************************************/
@@ -65,14 +66,12 @@
 /******************************************************/
 .menu{
     background-color: #19B5FE;
-    width: 45%;
-    height: 100%;
     position: absolute;
     display: block;
-    margin:0 0 0 auto;
-    left: -45%; /* メニューを左に隠す */
+    right: -200%; /* メニューを左に隠す */
 }
 .show {
+    margin: auto;
     left: 0; /* メニューを表示する */
 }
 .nav-item{
