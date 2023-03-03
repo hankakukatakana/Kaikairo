@@ -30,11 +30,29 @@
           </div>
       </div>
   </header>
-  <div>
-    <a class="nav-item" href="/main.html"> HOME</a>
-    <a class="nav-item" href="/work.html"> WORKS</a>
-    <a class="nav-item" href="/access.html">ACCESS</a>
-  </div>
+  <div class="hamburger">
+    <label type="button" for="menu-btn-check" class="menu-btn" id="menu-btn"><span></span></label>
+
+    <div class="menu" id="menu">
+        <li>
+            <a class="nav-item" href="/index.html"> HOME</a>
+        </li>
+        <li>
+            <a class="nav-item" href="/work/index.html"> WORKS</a>
+        </li>
+        <li>
+            <a class="nav-item" href="/access/index.html">ACCESS</a>
+        </li>
+    </div>
+    <script>
+        const menuIcon = document.querySelector('.menu-btn');
+        const menu = document.querySelector('.menu');
+        menuIcon.addEventListener("click", () =>{
+            menu.classList.add('.show')
+            alert('まだ動かないよ')
+        });
+    </script>
+</div>
 
   <div class="container">
     <div class="card">
