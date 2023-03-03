@@ -11,7 +11,7 @@
 .backgraund img{
     top: 10%;
     bottom: 10%;
-    margin: auto;
+    margin: 0 0 0 auto;
     height: 80%;
     position: absolute;
 }
@@ -67,7 +67,7 @@
     background-color: #19B5FE;
     position: absolute;
     display: block;
-    right: -200%; /* メニューを左に隠す */
+    left: -45%; /* メニューを左に隠す */
 }
 .show {
     margin: auto;
